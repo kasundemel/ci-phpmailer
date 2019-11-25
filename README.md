@@ -8,11 +8,11 @@ How to integrate PHPMailer with Codeigniter 3
 
 Application used for creating the system.
 
-|                |Developer|Version #|
-|----------------|-------------------------------|-----------------------------|
-|CodeIgniter|`EllisLab`            |`3.2.0`          |
-|PHPExcel |`PHPMailer`            |`6.1.3`           |
-|PHP |`PHP`            |`5.6`           |
+|               |Developer                      |Version        |
+|---------------|-------------------------------|---------------|
+|CodeIgniter    |`EllisLab`                     |`3.2.0`        |
+|PhpMailer      |`PHPMailer`                    |`6.1.3`        |
+|PHP            |`PHP`                          |`5.6`          |
 
 
 # Steps
