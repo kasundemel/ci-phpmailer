@@ -109,6 +109,7 @@ Steps:
         }
 ### Note
 Ports, Host and SMTPSecure might not work on the production and test server. Please refer on the table below.
+
 |SMTP| Port # | Description |
 |--|--| --|
 | tls |587  | You can use it on Test and Live Server|
