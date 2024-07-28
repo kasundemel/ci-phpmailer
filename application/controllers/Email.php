@@ -52,13 +52,13 @@ class Email extends CI_Controller {
         $mail->Port     	= $mail_config['email_port'];
 
         $mail->setFrom('no-reply@email.com', 'Test Name');
-        $mail->addAddress($_POST["mail_address"]);
+        $mail->addAddress($mail_config["email_username"]);
 
         // Add a recipient
-        // $mail->addAddress('john.doe@gmail.com');
+         $mail->addAddress('hashanidias123@gmail.com');
 
         // Add cc or bcc 
-        // $mail->addCC('cc@example.com');
+         $mail->addCC('dietlk99@gmail.com');
         // $mail->addBCC('bcc@example.com');
 
         // Email subject
@@ -67,7 +67,7 @@ class Email extends CI_Controller {
         // Set email format to HTML
         $mail->isHTML(true);
         // $mail->AddEmbeddedImage($_SERVER['DOCUMENT_ROOT'].'/aos/assets/img/login_logo.png', 'logo');
-        $mail->Body = $_POST["mail_message"];
+        $mail->Body = "test";
 
         // Send email
         header('content-type: application/json');
